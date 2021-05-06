@@ -301,12 +301,12 @@ section {
     display: inline-block;
     position: absolute;
     top: 3px;
-    left: 30px;
+    left: -20px;
   }
   .btnku2 {
     display: inline-block;
     position: absolute;
-    margin-left: 220px;
+    margin-left: 170px;
   }
 }
 
@@ -415,14 +415,20 @@ section {
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
-    margin-left: 150px;
+    margin-left: 400px;
   }
   .navbar ul {
     display: none;
   }
-  .btnku {
-    display: inline-block;
+}
 
+@media (max-width: 768px) {
+  .mobile-nav-toggle {
+    display: block;
+    margin-left: 50px;
+  }
+  .navbar ul {
+    display: none;
   }
 }
 
