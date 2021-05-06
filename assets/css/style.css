@@ -54,9 +54,9 @@ section {
 }
 
 .section-header p {
-  margin: 10px 0 0 0;
+  margin: 10px 100px 0 100px;
   padding: 0;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 42px;
   font-weight: 700;
   color: #012970;
@@ -64,8 +64,9 @@ section {
 
 @media (max-width: 768px) {
   .section-header p {
-    font-size: 28px;
+    font-size: 22px;
     line-height: 32px;
+    margin: 10px 0 0 0;
   }
 }
 
@@ -270,7 +271,7 @@ section {
   transition: 0.3s;
 }
 
-.btnku{
+.btnku1{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -281,6 +282,32 @@ section {
   color: #013289;
   white-space: nowrap;
   transition: 0.3s;
+}
+.btnku2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px 10px 40px;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #013289;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  .btnku1 {
+    display: inline-block;
+    position: absolute;
+    top: 3px;
+    left: 30px;
+  }
+  .btnku2 {
+    display: inline-block;
+    position: absolute;
+    margin-left: 220px;
+  }
 }
 
 .navbar a i {
@@ -388,9 +415,14 @@ section {
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
+    margin-left: 150px;
   }
   .navbar ul {
     display: none;
+  }
+  .btnku {
+    display: inline-block;
+
   }
 }
 
