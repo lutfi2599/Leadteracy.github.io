@@ -22,7 +22,7 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbygiLRLg6eFM4VUYg4EDO
         .then(response => {
             const myyAlert = document.getElementById("test").innerHTML = b;
             const myyAlert2 = document.getElementById("test1").innerHTML = a;
-            const tes = setTimeout(function(){ window.location.href = "https://wa.me/6283115106335"; }, 3000);
+            const tes = setTimeout(function(){ window.location.href = "https://wa.me/6283115106335"; }, 1000);
             btnLoading.classList.toggle('d-none');
             btnKirim.classList.toggle('d-none');
             form.reset();
